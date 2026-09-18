@@ -1,0 +1,28 @@
+.category-tabs-container {
+  width: 100%;
+  overflow-x: auto;
+  background-color: #ffffff;
+  border-bottom: 1px solid #dddddd;
+}
+
+.category-tabs {
+  display: flex;
+  width: max-content;
+  min-width: 100%;
+}
+
+.category-button {
+  border: none;
+  background-color: transparent;
+  padding: 18px 22px;
+  color: #666666;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.category-button.active {
+  color: #e53935;
+  border-bottom: 3px solid #e53935;
+}

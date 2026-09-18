@@ -1,0 +1,104 @@
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 25px 0;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.menu-item-details {
+  flex: 1;
+}
+
+.dish-name-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.dish-name-container h2 {
+  margin: 0;
+  font-size: 19px;
+}
+
+.veg-icon {
+  color: green;
+  font-size: 13px;
+}
+
+.non-veg-icon {
+  color: red;
+  font-size: 13px;
+}
+
+.dish-price {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.dish-description {
+  margin: 0;
+  color: #777777;
+  line-height: 1.5;
+}
+
+.dish-calories {
+  margin: 8px 0;
+  color: #555555;
+  font-size: 14px;
+}
+
+.customization {
+  color: #e53935;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.not-available {
+  color: #e53935;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.dish-image-container {
+  position: relative;
+  width: 180px;
+  flex-shrink: 0;
+}
+
+.dish-image {
+  width: 180px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.quantity-container {
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid #e53935;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.quantity-container button {
+  width: 35px;
+  height: 32px;
+  border: none;
+  background-color: #ffffff;
+  color: #e53935;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.quantity {
+  width: 30px;
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
+}
